@@ -6,7 +6,10 @@ class App < Sinatra::Base
   get '/newteam' do 
     
     erb :newteam
-    binding.pry
+  end
+  
+  post '/team' do 
+    
   end
 
 end
